@@ -278,8 +278,17 @@ footer{
     width: 79.9375rem;
     height: 31.25rem;
     padding-top: 80px;
+    line-height: 40px;
+}
+.listTitle{
+    margin-bottom: 30px;
 }
 
 ul{
     list-style: none;
+}
+
+.language{
+    width: 79.9375rem;
+    height: 3.125rem;
 }
