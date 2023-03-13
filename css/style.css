@@ -220,6 +220,10 @@ header a{
     background-color: cadetblue;
 }
 
+.text{
+    padding: 170px 0 0 0 ;
+}
+
 /*SECTION 8*/
 
 .section8{
@@ -250,6 +254,11 @@ header a{
     width: 800px;
     background-color: lightgreen;
     line-height: 50px;
+}
+
+.downArrow{
+    align-self: center;
+    font-size: 8px;
 }
 
 .answer{
