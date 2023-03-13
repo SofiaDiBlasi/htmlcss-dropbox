@@ -160,7 +160,7 @@ header a{
     width: 62.5rem;
     height: 32.1875rem ;
     padding-top: 1%;
-    margin-top: 15%;
+    margin-top: 5%;
 }
 
 .imgSection4{
@@ -195,7 +195,7 @@ header a{
     flex-wrap: wrap;
 }
 
-.box{
+.boxSection5{
     background-color: yellow;
     height: 33.75rem;
     width: calc(100% / 3);
