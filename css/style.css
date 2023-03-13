@@ -30,6 +30,11 @@ header{
     position: fixed;
 }
 
+nav{
+    justify-content: center;
+    padding: 1%;
+}
+
 .headerLeft{
     width: 100%;
     justify-content: start;
@@ -50,6 +55,13 @@ header a{
     text-decoration: none;
     color: black;
     cursor: pointer;
+}
+
+.headerButton{
+    border: none;
+    background-color: blue;
+    color: white;
+    margin-right: 0; !important
 }
 
 
