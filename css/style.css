@@ -11,12 +11,14 @@
     display: flex;
 }
 
+.conteiner{
+    justify-content: center;
+}
+
 /*COLOR*/
 
 .lightBlueBg{
     background-color: #b4d0e7;
-    width: 100%;
-    height: 7%;
 }
 
 .whiteBg{
@@ -27,7 +29,7 @@
 
 header{
     width: 100%;
-    position: fixed;
+    position: sticky;
 }
 
 nav{
@@ -69,18 +71,32 @@ header a{
 
 .section1{
     width: 100%;
-    height: 23.3125rem;
+    height: 46.0625rem;
+}
+
+
+.paragSection1{
+    background-color: pink;
+    height: 24.75rem;
+    width: 27.1875rem;
+    flex-direction: column;
+    margin: 0;
+    line-height: 3.125rem;
 }
 
 .imgSection1{
-    height: 25rem;
-    width: 50rem;
+    background-color: blue;
     background-image: url(../img/jumbo.png);
     background-size: contain;
     background-repeat: no-repeat;
+    height: 28.75rem;
+    width: 49.0625rem;
+    margin: 0;
 }
 
-.paragSection1{
-    flex-direction: column;
+.titleSection1{
+    background-color: yellow;
+    width: 76.25rem;
+    font-size: 30px;
+    padding: 2%;
 }
-
