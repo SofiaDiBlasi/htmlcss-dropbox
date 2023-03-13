@@ -15,6 +15,16 @@
     justify-content: center;
 }
 
+.textSection{
+    width: 31.25rem;
+    height: 12.5rem;
+}
+.buttonConteiner{
+    width: 31.25rem;
+    height: 12.5rem;
+    background-color: cadetblue;
+}
+
 /*COLOR*/
 
 .lightBlueBg{
@@ -140,18 +150,12 @@ header a{
 
 .section3{
     width: 62.5rem;
-    height: 16.25rem ;
+    height: 16.25rem;
     padding-top: 1%;
 }
 
 .conteinerSection3{
     border: 1px solid grey;
-}
-
-.buttonConteiner{
-    height: 200px;
-    width: 650px;
-    background-color: cadetblue;
 }
 
 /*SECTION 4*/
@@ -161,6 +165,7 @@ header a{
     height: 32.1875rem ;
     padding-top: 1%;
     margin-top: 5%;
+    background-color: lightgreen;
 }
 
 .imgSection4{
@@ -181,7 +186,7 @@ header a{
 
 .section5{
     width: 62.5rem;
-    height: 66.375rem ;
+    height: 74.375rem;
     padding-top: 1%;
     background-color: pink;
 }
@@ -204,4 +209,49 @@ header a{
 .boxImg{
     width:300px;
     height:250px;
+}
+
+/*SECTION 6*/
+
+.section6{
+    width: 62.5rem;
+    height: 23.125rem ;
+    padding-top: 1%;
+    background-color: cadetblue;
+}
+
+/*SECTION 8*/
+
+.section8{
+    width: 62.5rem;
+    height: 16.25rem;
+    padding-top: 1%;
+}
+
+/*SECTION 9*/
+
+.section9{
+    width: 62.5rem;
+    height: 31.25rem;
+    padding-top: 1%;
+    background-color: pink;
+    align-items: center;
+}
+
+.faqTitle{
+    height: 50px;
+    width: 800px;
+    background-color: lightsalmon;
+    padding: 1%;
+}
+
+.faqBox{
+    height: 200px;
+    width: 800px;
+    background-color: lightgreen;
+    line-height: 50px;
+}
+
+.answer{
+    margin-left: 0;
 }
