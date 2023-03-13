@@ -106,7 +106,7 @@ header a{
 
 .section2{
     background-color: red;
-    height: 77.25rem;
+    height: 70.25rem;
     width: 62.5rem;
 }
 
@@ -152,4 +152,26 @@ header a{
     height: 200px;
     width: 650px;
     background-color: green;
+}
+
+/*SECTION 4*/
+
+.section4{
+    width: 62.5rem;
+    height: 32.1875rem ;
+    padding-top: 1%;
+    margin-top: 15%;
+}
+
+.imgSection4{
+    background-image: url(../img/partner.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 31.875rem;
+    width: 95rem;
+    margin: 0;
+}
+
+.paragSection4{
+    padding: 5%;
 }
