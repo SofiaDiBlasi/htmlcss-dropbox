@@ -126,7 +126,7 @@ header a{
     width: calc((100% - 80px) / 3);
 }
 
-.grey{
+.greyBorderBox{
     margin: 0;
     border: 1px solid grey;
 }
