@@ -305,8 +305,7 @@ header a{
 .section5{
     width: 62.5rem;
     height: 74.375rem;
-    padding-top: 1%;
-    background-color: pink;
+    padding-top: 5%;
 }
 
 .titleSection5{
@@ -319,14 +318,18 @@ header a{
 }
 
 .boxSection5{
-    background-color: yellow;
-    height: 33.75rem;
-    width: calc(100% / 3);
+    height: 31.75rem;
+    width: calc((100% - 80px) / 3);
 }
 
-.boxImg{
-    width:300px;
-    height:250px;
+.imgBox{
+ display: flex;
+ justify-content: space-between;
+}
+
+.imgSection5{
+    width: 19.125rem;
+    height: 15.625rem;
 }
 
 /*SECTION 6*/
@@ -370,13 +373,11 @@ header a{
 }
 
 .logoConteiner{
-    width: 20.0625rem;
     height: 20.0625rem;
     align-items: center;
 }
 
 .logoConteinerWithBorder{
-    width: calc(20.0625rem - 30px) ;
     height: calc(20.0625rem - 30px);
     align-items: center;
 }
