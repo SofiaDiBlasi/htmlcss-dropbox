@@ -275,6 +275,14 @@ header a{
     height: calc(100% / 2);
 }
 
+.square1{
+    border: 15px solid #d1e9cd;
+}
+
+.centerSquare{
+    overflow: scroll;
+}
+
 
 
 /*SECTION 8*/
