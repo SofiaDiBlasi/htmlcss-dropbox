@@ -263,33 +263,42 @@ header a{
     line-height: 40px;
 }
 
-.tit{
-    flex-direction: column;
-}
-
 /*SECTION 4*/
 
 .section4{
     width: 62.5rem;
-    height: 32.1875rem ;
+    height: 34.1875rem;
     padding-top: 1%;
     margin-top: 5%;
-    background-color: lightgreen;
 }
 
 .imgSection4{
     background-image: url(../img/partner.png);
     background-size: contain;
     background-repeat: no-repeat;
-    height: 31.875rem;
+    height: 32.875rem;
     width: 95rem;
     margin: 0;
 }
 
 .paragSection4{
-    padding: 5%;
+    padding: 5% 5% 0% 0%;
 }
 
+.textSection4{
+    width: 18.75rem;
+    margin-bottom: .9375rem;
+}
+
+.buttonSection4{
+    border: 0.5px solid black;
+    background-color: white;
+    width: 8.4375rem;
+    height: 2.125rem;
+    cursor: pointer;
+    margin: 20px 0px 0px 0px;
+
+}
 
 /*SECTION 5*/
 
