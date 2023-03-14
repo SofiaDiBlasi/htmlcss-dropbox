@@ -283,12 +283,68 @@ header a{
     overflow: scroll;
 }
 
+.logoConteiner{
+    width: 20.0625rem;
+    height: 20.0625rem;
+    align-items: center;
+}
+
+.logoConteinerWithBorder{
+    width: calc(20.0625rem - 30px) ;
+    height: calc(20.0625rem - 30px);
+    align-items: center;
+}
+
+.designitLogo{
+    width: 9.375rem;
+    height: 3.125rem;
+}
+
+.asuLogo{
+    width: 10.625rem;
+    height: 8.125rem;
+}
+
+.ufLogo{
+    width: 11.375rem;
+    height: 2.5rem;
+}
+
+.toopsLogo{
+    width: 13.125rem;
+    height: 12.5rem;
+}
+
+.wbcLogo{
+    width: 11.875rem;
+    height: 5.625rem;
+}
+
+.hearstLogo{
+    width: 11.25rem;
+    height: 1.875rem;
+}
+
 /*SECTION 8*/
 
 .section8{
     width: 62.5rem;
     height: 16.25rem;
     padding-top: 1%;
+}
+
+.lonelypLogo{
+    width: 12.5rem;
+    height: 6.5625rem;
+}
+
+.ccoLogo{
+    width: 12.5rem;
+    height: 10rem;
+}
+
+.logoColor{
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
 }
 
 /*SECTION 9*/
