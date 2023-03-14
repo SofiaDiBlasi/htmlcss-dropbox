@@ -323,8 +323,8 @@ header a{
 }
 
 .imgBox{
- display: flex;
- justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 
 .imgSection5{
@@ -338,11 +338,14 @@ header a{
     width: 62.5rem;
     height: 23.125rem ;
     padding-top: 1%;
-    background-color: cadetblue;
 }
 
 .text{
-    padding: 170px 0 0 0 ;
+    padding: 90px 0 0 0 ;
+}
+
+.biggerH1{
+    font-size: 40px;
 }
 
 /*SECTION 7*/
