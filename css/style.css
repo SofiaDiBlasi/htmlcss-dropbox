@@ -176,13 +176,12 @@ header a{
 /*SECTION 2*/
 
 .section2{
-    background-color: pink;
     height: 70.25rem;
     width: 62.5rem;
 }
 
 .headSection2{
-    padding: 2% 0;
+    padding: 5% 0;
 }
 
 .titleSection2{
@@ -191,20 +190,19 @@ header a{
 }
 
 .column{
-    height: 59.375rem;
-    margin: 0;
+    height: 56.25rem;
     border: 1px solid grey;
     width: calc((100% - 80px) / 3);
 }
 
 .greyBorderBox{
     margin: 0;
-    border: 1px solid grey;
+    border-bottom: 1px solid grey;
 }
 
 .centerColumn{
-    margin-left: 40px;
-    margin-right: 40px;
+    margin: 20px 00px 20px 0px;
+    line-height: 30px;
 }
 
 .buttonSection2{
@@ -216,12 +214,32 @@ header a{
     margin: 30px 0px 20px 0px;
 }
 
+.columnContent{
+    padding: 25px 25px 0px 25px;
+}
+
+.columnButton{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hr{
+    margin: 30px 0px;
+    width: 20% ;
+}
+
+.column2{
+    margin-left:40px;
+    margin-right: 40px;
+}
+
 /*SECTION 3*/
 
 .section3{
     width: 62.5rem;
     height: 16.25rem;
-    padding-top: 1%;
+    padding-top: 3%;
 }
 
 .conteinerSection3{
