@@ -68,6 +68,9 @@
 .yellowBg{
     background-color:#ffd830 ;
 }
+.buttonColor{
+    background-color: #0061ff;
+}
 
 /*****HEADER*****/
 
@@ -105,9 +108,11 @@ header a{
 
 .headerButton{
     border: none;
-    background-color: blue;
     color: white;
-    margin-right: 0; !important
+    margin-right: 0;
+    width: 4.4375rem;
+    height: 2.125rem;
+    cursor: pointer;
 }
 
 /*****MAIN*****/
