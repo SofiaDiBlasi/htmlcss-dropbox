@@ -71,6 +71,10 @@
     background-color: #0061ff;
 }
 
+.colorBlue{
+    color: #0061ff;
+}
+
 .colorBlack{
     color: black;
 }
@@ -201,6 +205,15 @@ header a{
 .centerColumn{
     margin-left: 40px;
     margin-right: 40px;
+}
+
+.buttonSection2{
+    border: none;
+    color: white;
+    width: 13.4375rem;
+    height: 2.125rem;
+    cursor: pointer;
+    margin: 30px 0px 20px 0px;
 }
 
 /*SECTION 3*/
