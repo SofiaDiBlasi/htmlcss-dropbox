@@ -18,11 +18,13 @@
 .textSection{
     width: 31.25rem;
     height: 12.5rem;
+    margin: 0;
 }
 .buttonConteiner{
     width: 31.25rem;
     height: 12.5rem;
     background-color: cadetblue;
+    margin: 0;
 }
 
 /*****COLOR*****/
@@ -325,12 +327,36 @@ header a{
     height: 1.875rem;
 }
 
+.centerConteinerHead{
+    width: 36.125rem;
+    height: 6.75rem;
+    margin: 0;
+}
+
+.centerConteinerLogo{
+    width: 18.75rem;
+    height: 6.25rem ;
+    margin: 45px 20px 20px 40px;
+}
+
+.hrCenterConteiner{
+    width: 20%;
+    padding: 65px 0px 65px 0px;
+    margin: 10px 10px 10px 40px;
+}
+
+.paragCenterConteiner{
+    padding: 10px 10px 10px 10px;
+    margin: 0 30px 0px 30px;
+}
+
 /*SECTION 8*/
 
 .section8{
-    width: 62.5rem;
+    width: 100%;
     height: 16.25rem;
     padding-top: 1%;
+    justify-content: center;
 }
 
 .lonelypLogo{
