@@ -233,13 +233,21 @@ header a{
 }
 
 .hr{
-    margin: 30px 0px;
+    margin: 10px 25px 25px;
     width: 20% ;
 }
 
 .column2{
     margin-left:40px;
     margin-right: 40px;
+}
+
+.shopLink{
+    margin: 0px 60px 30px 0px;
+}
+
+.checkList{
+    margin: 0px 20px;
 }
 
 /*SECTION 3*/
@@ -269,7 +277,7 @@ header a{
 }
 
 .paragTextSection3{
-    line-height: 20px; !important
+    line-height: 20px;
 }
 
 /*SECTION 4*/
