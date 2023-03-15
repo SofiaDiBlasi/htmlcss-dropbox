@@ -268,6 +268,10 @@ header a{
     line-height: 40px;
 }
 
+.paragTextSection3{
+    line-height: 20px; !important
+}
+
 /*SECTION 4*/
 
 .section4{
@@ -505,12 +509,17 @@ header a{
     margin-right: 1.25rem;
 }
 
-.answerBox{
-    justify-content: space-between;
+.question{
+    margin-left: 0;
 }
 
 .answer{
+    height: 12.5rem;
+    width: 62.5rem;
     margin-left: 0;
+    display: flex;
+    justify-content: space-between;
+    display: none;
 }
 
 /*****FOOTER*****/
